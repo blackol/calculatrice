@@ -27,6 +27,49 @@
 .App-link {
   color: #61dafb;
 }
+.calculator-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flexdroite{
+  flex: 1;
+}
+.containt{
+ 
+  min-height: 100vh;
+
+}
+.element-calculette{
+  background-color: #61dafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60vh;
+  min-width: 50vh;
+  margin-top: 10%;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.buttonform{
+  font-size: 150%;
+  color: white;
+  background-color:rgb(0, 76, 139);
+  height: 9vh;
+  width: 9vh;
+  margin: 10px;
+  border-radius: 10%;
+}
+.result{
+  color: white;
+  font-size: 180%;
+}
 
 @keyframes App-logo-spin {
   from {
